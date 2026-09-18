@@ -8,6 +8,8 @@ void calculateAverages(){
     // We will use that data to figure out what state we're in
     // NOTE: Dont create averages for ALL the data readings (for example,
     // we don't need a smoothed average for temperature readings)
+    
+    // create lists for last 3 readings of each important variable
 
  // create lists for last 3 readings of each important variable
     float accelX_list[3] = {0.0f, 0.0f, 0.0f};
