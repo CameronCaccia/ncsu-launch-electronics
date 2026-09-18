@@ -17,6 +17,11 @@
             "toolchainBinDir": "C:/Users/camer/.platformio/packages/toolchain-gccarmnoneeabi/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "svdPath": "C:/Users/camer/.platformio/platforms/nordicnrf52/misc/svd/nrf52840.svd",
+            "executable": "C:/Users/adewa/Desktop/HPRC/InterestLaunch/ncsu-launch-electronics/.pio/build/nano33ble/firmware.elf",
+            "projectEnvName": "nano33ble",
+            "toolchainBinDir": "C:/Users/adewa/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/adewa/.platformio/platforms/nordicnrf52/misc/svd/nrf52840.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
                 "task": "Pre-Debug"
@@ -31,6 +36,11 @@
             "toolchainBinDir": "C:/Users/camer/.platformio/packages/toolchain-gccarmnoneeabi/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "svdPath": "C:/Users/camer/.platformio/platforms/nordicnrf52/misc/svd/nrf52840.svd"
+            "executable": "C:/Users/adewa/Desktop/HPRC/InterestLaunch/ncsu-launch-electronics/.pio/build/nano33ble/firmware.elf",
+            "projectEnvName": "nano33ble",
+            "toolchainBinDir": "C:/Users/adewa/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/adewa/.platformio/platforms/nordicnrf52/misc/svd/nrf52840.svd"
         },
         {
             "type": "platformio-debug",
@@ -41,6 +51,11 @@
             "toolchainBinDir": "C:/Users/camer/.platformio/packages/toolchain-gccarmnoneeabi/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "svdPath": "C:/Users/camer/.platformio/platforms/nordicnrf52/misc/svd/nrf52840.svd",
+            "executable": "C:/Users/adewa/Desktop/HPRC/InterestLaunch/ncsu-launch-electronics/.pio/build/nano33ble/firmware.elf",
+            "projectEnvName": "nano33ble",
+            "toolchainBinDir": "C:/Users/adewa/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/adewa/.platformio/platforms/nordicnrf52/misc/svd/nrf52840.svd",
             "loadMode": "manual"
         }
     ]
