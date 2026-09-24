@@ -123,36 +123,19 @@ void calculateAverages(){
     //update index for new reading, wrap around if it reaches 3
     quat_index = (quat_index + 1) % 3;
 
-}   else if(temperature_C != temperature_C_list[2]) { // Check if temperature and pressure readings are valid
-   
-    
-    //store new temp reading
+}   else if(dps_data_ready == true) { 
+    // Check if temperature and pressure readings are valid
     temperature_C_list[temperature_index] = temperature_C;
-
-    //Calculate the average temp readings
-    //update divisor for new reading, stop at 3
-    if(temperature_divisor < 3) {
-        temperature_divisor++;
-    }
+    if(temperature_divisor < 3) temperature_divisor++;
     temperature_C_avg = (temperature_C_list[0] + temperature_C_list[1] + temperature_C_list[2]) / temperature_divisor;
-
-    //update index for new reading, wrap around if it reaches 3
     temperature_index = (temperature_index + 1) % 3;
 
-}   else if(pressure_hPa != pressure_hPa_list[2]) { // Check if temperature and pressure readings are valid
-    //store new pressure reading
     pressure_hPa_list[pressure_index] = pressure_hPa;
-
-    //Calculate the average pressure readings
-    //update divisor for new reading, stop at 3
-    if(pressure_divisor < 3) {
-        pressure_divisor++;
-    }
+    if(pressure_divisor < 3) pressure_divisor++;
     pressure_hPa_avg = (pressure_hPa_list[0] + pressure_hPa_list[1] + pressure_hPa_list[2]) / pressure_divisor;
-
-    //update index for new reading, wrap around if it reaches 3
     pressure_index = (pressure_index + 1) % 3;
 
+    dps_data_ready = false;  // <-- consume the flag so stale data isn't reprocessed
 }
 }
 

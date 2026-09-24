@@ -22,6 +22,7 @@ float magX_avg, magY_avg, magZ_avg;
 float quatReal_avg, quatI_avg, quatJ_avg, quatK_avg;
 float pressure_hPa_avg;
 float temperature_C_avg;
+bool dps_data_ready = false;
 
 float velocityZ;
 

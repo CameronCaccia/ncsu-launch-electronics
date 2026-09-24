@@ -40,5 +40,6 @@ void readDPS310() {
         dps.getEvents(&temp_event, &pressure_event);
         temperature_C = temp_event.temperature;
         pressure_hPa = pressure_event.pressure;
+        dps_data_ready = true;
     }
 }
