@@ -1,5 +1,6 @@
 #include "brains.hpp"
-
+#include "globals.hpp"
+extern volatile bool dps_data_ready;
 
 
 void calculateAverages(){       
