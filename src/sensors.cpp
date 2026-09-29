@@ -1,5 +1,6 @@
 #include "sensors.hpp"
-
+#include "glob.h"
+extern volatile bool dps_data_ready;
 
 
 void readBNO08x() {
