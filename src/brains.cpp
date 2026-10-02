@@ -1,6 +1,5 @@
 #include "brains.hpp"
 #include "globals.hpp"
-extern volatile bool dps_data_ready;
 
 
 float calculateAverages(float list[3], int size){       
